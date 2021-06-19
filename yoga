@@ -1,0 +1,97 @@
+<html>
+
+<head>
+    <style>
+        h1 {
+            text-align: center;
+            color: orangered;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+
+        h2 {
+            text-align: center;
+            border-radius: 10px;
+            border: 1px solid orangered;
+            padding: 5px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+
+        img {
+            border-radius: 10px;
+            width: 100%;
+        }
+
+        p {
+            font-size: 15px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            line-height: 1.5;
+            text-align: center;
+        }
+
+        button {
+            width: 100%;
+            background-color: orangered;
+            color: white;
+            border: none;
+            padding: 15px;
+            font-size: 20px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            border-radius: 30px;
+            box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
+            margin: 20px 0;
+
+        }
+
+        footer {
+            text-align: center;
+            font-size: 12px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>
+        Yoga
+    </h1>
+    <h2>
+        Discipline
+    </h2>
+    <img src="https://cuidai.com.br/wp-content/uploads/2020/10/woman-is-practicing-yoga-and-med.jpg" alt="" width="300">
+    <p>
+        Yoga is a group of physical, mental, and spiritual practices or disciplines that originated in ancient India.
+        Yoga is one of the six orthodox philosophical schools of Hinduism. There are a broad variety of yoga schools,
+        practices, and goals in Hinduism, Buddhism, and Jainism and there are four paths or types of yoga: Karma yoga,
+        Kriya yoga, Bhakti yoga, and Jnana yoga. Research studies have shown that traditional yoga systems that include
+        breathing exercises and asanas or postures, chants, and meditation can reduce stress and improve immunity and
+        lung functions. Traditional forms and modern methods of yoga are practiced worldwide.
+        <br />
+        <br />
+        <a
+            href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwipxYCHwqLxAhWnHLkGHaJNAu4QmhMwMXoECCMQAg&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FYoga&usg=AOvVaw2fTjSRjtAtsR4f8Sp_CZiZ">Learn
+            more on Wikipedia</a>
+    </p>
+    <button>
+        Go to a Yoga Class
+    </button>
+    <footer>
+        Coded by
+        <a href="https://www.behance.net/andressapan">Andressapan
+        </a>
+    </footer>
+
+    <script>
+        function subscribe() {
+            let name = prompt(what is your name?);
+            prompt(What is your email address?);
+
+            alert(Thanks, Andressa! We will be in touch!);
+
+        }
+        let button = document.querySelector(button);
+        button.addeventlistener(click, subscribe)
+    </script>
+</body>
+
+</html>
